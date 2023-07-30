@@ -10,8 +10,8 @@
 
 |MODEL|NAME|LINKS|
 |-|-|-|
-|A|TANKER| [Tanker Firefighting video](https://www.youtube.com/watch?v=vs2tbcEfeyE) <br>[Tanker TroubleShooting video](https://www.youtube.com/watch?v=62zhb7z_1Ww)<br>[ Tanker Default Video. DOCK ](https://youtu.be/nkz5eX2ZtO8)<br>[Tanker Vetting Video ](https://youtu.be/HJbkmnCj6qQ) <br>[Tanker Abbreviations](./abbreviations/tanker_abbreviations.md)|
-|B|LNG|[LNG repair circuit breaker video](https://youtu.be/gzY0J_s53Js) <br>[LNG Prepare for propulsion video](https://youtu.be/qFQXpVJAslA) <br> [ LNG Abbreviations   ](./abbreviations/dual_fuel_abbreviations.md)|
+|A|TANKER| [Tanker Firefighting video](https://www.youtube.com/watch?v=vs2tbcEfeyE) <br>[Tanker TroubleShooting video](https://www.youtube.com/watch?v=62zhb7z_1Ww)<br>[ Tanker Default Video. DOCK ](https://youtu.be/nkz5eX2ZtO8) [ **Text Scenario** ]()<br>[Tanker Vetting Video ](https://youtu.be/HJbkmnCj6qQ) <br>[Tanker Abbreviations](./abbreviations/tanker_abbreviations.md)|
+|B|LNG|[LNG repair circuit breaker video](https://youtu.be/gzY0J_s53Js) <br>[LNG Prepare for propulsion video](https://youtu.be/qFQXpVJAslA) [**Text Scenario**](https://github.com/woxe1/transas_simulator/blob/main/text_scenario_lng_prepare_for_propulsion.md) <br> [ LNG Abbreviations   ](./abbreviations/dual_fuel_abbreviations.md)|
 |C|AZIPOD|[ Abbreviations that maybe helpful for AZIPOD  ](./abbreviations/azipod_abbreviations.md)<br> [AZIPOD Prepare for propulsion video](https://youtu.be/knJQXcWfj0Y)|
 
 
