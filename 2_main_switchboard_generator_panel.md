@@ -9,10 +9,27 @@
 </div>
 
 ### Default
-For starting the engine we need to provide in enough pressure of fuel. Enough pressure is created by the diesel oil generator engine pumps (DO GE pumps). This model of tanker has two such pumps. One is electrical the second is pneumatic
+For starting the engine we need to provide in enough pressure of fuel. Enough pressure is created by the diesel oil generator engine pumps (DO GE pumps). This model of tanker has two such pumps.  One is electrical the second is pneumatic. We can see that on the tab Fuel Oil Service Main Engine and Generator Engine system:
+
+ - SYS → FO ME GE Service System
+
 
 <div align="center">
 
 <img src="./assets/2_main_switchboard/tanker_fuel_oil.PNG" width=700>
 
+1 - Electric pump ; 2- Pneumatic pump; 3-manual pneumatic valve
 </div>
+
+We need to open the pneumatic valve 3.
+
+Then we need make some settings on Synchro panel
+- MSB → Synchro Panel
+
+<img src="./assets/2_main_switchboard/tanker_synchro_panel.PNG" width=700>
+    We need to choose the right 
+</div>
+
+We need to choose standby generator
+
+
