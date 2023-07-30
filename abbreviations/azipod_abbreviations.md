@@ -36,3 +36,39 @@ ESD| Emergency Shutdown (system)
 FO |Fuel Oil
 FOS|Fuel Oil Supply (system)
 FOT |Fuel Oil Transfer (system)
+FPP | Fire Pump
+FU  |Follow Up
+FW  |Fresh Water
+FWD | Forward peak
+HFO  |Heavy Fuel Oil
+HSD  |Heat Sensing Device
+HT  |High Temperature (circuit)
+LAH  |Level Alarm High
+LAL  |Level Alarm Low
+LO  |Lube Oil
+LOP | Local Operating Panel
+LT  |Low Temperature (circuit)
+LV  |Low Voltage
+MSB  |Main Switch Board
+MSWB | Main Switch Board
+MV  |Medium Voltage
+NFU  |Non Follow Up
+PCS  |Propulsion Control System
+PDB  |Power Distribution Board
+PLC  |Programmable Logic Controller
+PP  |Propulsion Plant
+PP  |Pumps
+PPM  |Portside Propulsion Motor
+PS  |Portside
+PW | Potable Water
+QCV  |Quick Closing Valve
+SB  |Starboard
+SB  |Switch Board
+SG  |Steering Gear
+SPM  |Starboard Propulsion Motor
+STP  |Sewage Treatment Plant
+SW  |Sea Water
+SWBD  |Switch Board
+TR-R  |Transformer
+VDHW  |Virtual Dedicated Hardware
+WMC  |Wall Mimic Consoles
