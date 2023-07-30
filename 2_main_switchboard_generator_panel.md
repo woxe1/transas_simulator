@@ -77,13 +77,30 @@ Then we can go to the local control panel of diesel engine:
 </div>
 
 - ER3 → GE 1-2 LOP
-    - set two-positional selector switch in local mode
-    - press the button START
-    - wait for 900 rpm on tachometer
+  - set two-positional selector switch of starting generator in local mode;
+  - press the button START;
+  - return two-positional selector switch in the remote state;
+  - wait for 900 rpm on tachometer.
 
-Then we can do automatic synchronisation.
+### Then we can do automatic synchronisation.
 - MSB → Synchro Panel
-    - G2 → AUTO SYNCH
+  - press G2 → AUTO SYNCH
+
+### Or you can be asked for manual operation then:
+- MSB → Synchro Panel
+  - switch SYNCRO/POWER → MANUAL;
+  - with help of handles GOVERNOR CONTROL decrease phase shift between generators (use both handles for stable frequncy)
+  - when phase shift will be at 12 hours close the ACB of generator with help of ACB CONTROL switch
+
 
 Then you can be asked to start electrical diesel oil pump and turn off pneumatic you can also do it in the:
  - SYS → FO ME GE Service System
+   - click on the upper motor and start it from menu
+   - close the bottom valve
+
+
+### Disconnection
+- MSB → Synchro Panel
+  - switch SYNCRO/POWER → MANUAL;
+  - decrease the load of disconnecting generator less then 10% of nominal power (use both handles)
+  - open the Circuit Breaker with help of handle CONTROL CB of disconnecting generator

@@ -28,6 +28,6 @@
 |Number|Text|Answer|Models|
 |-|-|-|-|
 |1|Describe and demonstrate main simulator components and their designation.|[ **Main elements of models** ](https://github.com/woxe1/transas_simulator/blob/main/1_main_elements_of_simulator.md)|A, B, C|
-|2|Main switchboard generator’s panel components and their functions. Perform and explain necessary steps for generator engine start, stop, generator connection to the dead bus and for parallel operation, disconnection, load transfer and sharing. (Models A, B, C).|[ **Generator Panels** ](https://github.com/woxe1/transas_simulator/blob/main/2_main_switchboard_generator_panel.md) | A, B, C |
+|2|Main switchboard generator’s panel components and their functions. Perform and explain necessary steps for generator engine start, stop, generator connection to the dead bus and for parallel operation, disconnection, load transfer and sharing. (Models A, B, C).|[ **Generator Panels** ](https://github.com/woxe1/transas_simulator/blob/main/2_main_switchboard_generator_panel.md) <br>[ **Tanker short algo** ](https://github.com/woxe1/transas_simulator/blob/main/2_tanker_short_algo.md) | A, B, C |
 
 </div>
