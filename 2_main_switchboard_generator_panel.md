@@ -23,13 +23,16 @@ For starting the engine we need to provide in enough pressure of fuel. Enough pr
 
 We need to open the pneumatic valve 3.
 
-Then we need make some settings on Synchro panel
+Then we need make some settings on Synchro panel:
+
 - MSB → Synchro Panel
 
+<div align="center>
+
 <img src="./assets/2_main_switchboard/tanker_synchro_panel.PNG" width=700>
-    We need to choose the right 
+
 </div>
 
-We need to choose standby generator
+We need to choose standby generator with help of selector switch "STANDBY SELECTION", let it be the first generator. Also with the help of selector switch number two we choose OPTIONAL load-sharing mode.
 
 
