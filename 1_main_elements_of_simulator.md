@@ -10,6 +10,10 @@
 **Tanker is a special type of vessel for carrying liquids, especially mineral oils in bulk.**
 
 Model A consists of a bottom tabs where we can navigate through different places onboard the tanker:
+<div align="center">
+<img src="./assets/main_elements_of_simulator/tanker_nav_tab.PNG" width=700>
+</div>
+
 - For example we can go to the bridge and look at the bridge control console (**BCC**). Where the deck department can control the vessel by different control elements like steering wheel.
 - Then we can see Engiene Control Room (**ECR**) where we can monitor and control the most of ER mechanisms like main engine.
 - **MSB** - Main electrical Switchboard. By this tab we can switch for example on the Main Circuit Diagram(MCD) and get detailed information about the current state of the electrical station. Also we can find local group starter panels with according Circuit Breakers this may be helpful for example when we are looking for insulation breakdown.
@@ -44,7 +48,29 @@ $$
 
 ## Model B **DUAL-FUEL-LNG** ##
 
+<div align="center">
+<img src="./assets/main_elements_of_simulator/dual_fuel_nav_tab.PNG" width=700>
+</div>
 
+As we can see there are small diffrences for example
+- **IAS** - Integrated Automation System. The main difference between CMS, that we can control our mechanisms from that station but many CMS already have that property. 
+
+- **BT** - Bow Thruster room. Bow Thruster is used for more comfortable maneuvering. Bow thruster can be very helpful in mooring operations.
+
+The rest of the tabs are the same as on the tanker.
+
+On this type of vessel we use electrical energy for propulsion we can find it on the tab 
+**MCB/MCD** :
+<div align="center">
+<img src="./assets/main_elements_of_simulator/lng_mcd.PNG" width=700>
+</div>
+
+MG - Main generators provide electrical energy for supply our PM ( Propulsion Motors ). These Main Generators use the gas that leak from our gas tanks. But we can't achieve stable working by means only gas, we also use pilot fuel diesel oil to get more smooth operation. For better understanding we can use fuel system:
+<div align="center">
+<img src="./assets/main_elements_of_simulator/lng_fuel_system.PNG" width=700>
+</div>
 
  ### [ Abbreviations that maybe helpful for DUAL-FUEL-LNG  ](./abbreviations/dual_fuel_abbreviations.md) ###
+
+
 
