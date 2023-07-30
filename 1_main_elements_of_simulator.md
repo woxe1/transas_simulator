@@ -52,7 +52,7 @@ $$
 <img src="./assets/main_elements_of_simulator/dual_fuel_nav_tab.PNG" width=700>
 </div>
 
-As we can see there are small diffrences for example
+As we can see there are small diffrences for example:
 - **IAS** - Integrated Automation System. The main difference between CMS, that we can control our mechanisms from that station but many CMS already have that property. 
 
 - **BT** - Bow Thruster room. Bow Thruster is used for more comfortable maneuvering. Bow thruster can be very helpful in mooring operations.
@@ -74,3 +74,21 @@ MG - Main generators provide electrical energy for supply our PM ( Propulsion Mo
 
 
 
+## Model С **AZIPOD CRUISE** ##
+
+
+<div align="center">
+<img src="./assets/main_elements_of_simulator/azipod_nav_tab.PNG" width=700>
+</div>
+
+A new tabs:
+
+- **CID** - Cylinder Indicator Diagrams - is used in place of **Diag** 
+- **ACS** - Air Conditionig system for accommodation heating, ventialation and air conditioning capable of meeting the required conditions for passengers, officers, crew cabins, offices, public rooms, technical spaces
+- **AMS** - Alarm and monitoring system - is used for the same purposes as **IAS** and **CMS**
+
+AZIPOD - is an electrical moter that overboard in a special case, looks like:
+
+<div align="center">
+<img src="./assets/main_elements_of_simulator/azipod_overview.PNG" width=700>
+</div>
