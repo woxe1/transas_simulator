@@ -32,16 +32,14 @@ Model A consists of a bottom tabs where we can navigate through different places
 - **Diag** - This tab modeling Cylinder Indicator Diagrams of the main propulsion and Diesel engines of the generators and combustion process. Indicator Diagram looks like:
 
 
-<div align="center">
-<img src="./assets/main_elements_of_simulator/indicator_diagram.jpg" width=400>
+![Screenshot](assets/main_elements_of_simulator/indicator_diagram.jpg)
 
-it describes relationship
+it describes  by relationship:
 
-$$
-\frac{Angle \quad of \quad rotation \quad of \quad the \quad crankshaft}
-{Pressure \quad in \quad cylinder}
-$$
-</div>
+|Angle of rotation  of the crankshaft|Pressure  in cylinder|
+|-|-|
+
+
 
 - **SYS** - Describes the main systems of tankers like fresh water system, sea water system, fuel oil, air compressed systems and so on. From that tab we can control different valves.
 - **SG** - Steering Gear room page. We can check our motors, in that model RAM-type steering gear used with axial-reciprocating pumps where we can change the pressure of oil by incline built-in pump plate. So we can change the position of piston and incline of rudder blade.
@@ -61,9 +59,9 @@ $$
 This is a protoype of LNG tanker "Velikiy Novgorod" It's length about three hundred meters, serivce speed is about twenty knots. It uses electrical motors for propulsion and dual-fuel main generators.
 
 Navbar:
-<div align="center">
-<img src="./assets/main_elements_of_simulator/dual_fuel_nav_tab.PNG" width=700>
-</div>
+
+![Screenshot](assets/main_elements_of_simulator/dual_fuel_nav_tab.PNG)
+
 
 As we can see there are small diffrences for example:
 - **IAS** - Integrated Automation System. The main difference between CMS, that we can control our mechanisms from that station but many CMS already have that property. 
@@ -74,14 +72,15 @@ The rest of the tabs are the same as on the tanker.
 
 On this type of vessel we use electrical energy for propulsion we can find it on the tab 
 **MCB/MCD** :
-<div align="center">
-<img src="./assets/main_elements_of_simulator/lng_mcd.PNG" width=700>
-</div>
+
+
+
+![Screenshot](assets/main_elements_of_simulator/lng_mcd.PNG)
+
 
 MG - Main generators provide electrical energy for supply our PM ( Propulsion Motors ). These Main Generators use the gas that leak from our gas tanks. But we can't achieve stable working by means only gas, we also use pilot fuel diesel oil to get more smooth operation. For better understanding we can use fuel system:
-<div align="center">
-<img src="./assets/main_elements_of_simulator/lng_fuel_system.PNG" width=700>
-</div>
+
+![Screenshot](assets/main_elements_of_simulator/lng_fuel_system.PNG)
 
 
 
@@ -90,9 +89,10 @@ MG - Main generators provide electrical energy for supply our PM ( Propulsion Mo
 
 Total Electricall power fifty two thousands kilowatts. Tonnage is abot eighty two thousands tonns. Length is two hundred ninty one meters. Approximate speed is twenty four knots. This vessel uses electromotors (Azipods) for propulsion. 
 
-<div align="center">
-<img src="./assets/main_elements_of_simulator/azipod_nav_tab.PNG" width=700>
-</div>
+
+![Screenshot](assets/main_elements_of_simulator/azipod_nav_tab.PNG)
+
+
 
 A new tabs:
 
@@ -102,15 +102,17 @@ A new tabs:
 
 ### AZIPOD - is an electrical moter that overboard in a special case, looks like: ###
 
-<div align="center">
-<img src="./assets/main_elements_of_simulator/azipod_overview.PNG" width=700>
-</div>
+
+
+![Screenshot](assets/main_elements_of_simulator/azipod_overview.PNG)
+
+
 
 ### Power distribution system is following: ###
 
-<div align="center">
-<img src="./assets/main_elements_of_simulator/power_distribution_azipod.PNG" width=700>
-</div>
+
+![Screenshot](assets/main_elements_of_simulator/power_distribution_azipod.PNG)
+
 
 Every propulsion module can be supplied as from forpeak main switchbord so and from afterpeak switchboard. Cyclo Converters is used for transform the frequency of electrical energy for controll Rotations Per Minute (RPMs) of propulsion motors. This motors are needed for excitations that is lower then main supply voltage (only six hundred volts) So there are excitation transformers (EXC 1 and EXC 2)
  

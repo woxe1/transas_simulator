@@ -1,12 +1,8 @@
 
-<div align="center">
-    
 # Generator Panels
 
 
 ## TANKER
-
-</div>
 
 ### Default simulation start condition is shore power supply but steps the same for all simulations.
 
@@ -15,12 +11,11 @@ For starting the engine we need to provide in enough pressure of fuel. Enough pr
  - SYS → FO ME GE Service System
 
 
-<div align="center">
 
-<img src="./assets/2_main_switchboard/tanker_fuel_oil.PNG" width=700>
+![Screenshot](assets/2_main_switchboard/tanker_fuel_oil.PNG)
 
 1 - Electric pump ; 2- Pneumatic pump; 3-manual pneumatic valve
-</div>
+
 
 We need to open the pneumatic valve 3.
 
@@ -30,11 +25,9 @@ Then we need make some settings on Synchro panel:
 
 
 
-<div align="center">
+![Screenshot](assets/2_main_switchboard/tanker_synchro_panel.PNG)
 
-<img src="./assets/2_main_switchboard/tanker_synchro_panel.PNG" width=700>
 
-</div>
 
 We need to choose standby generator with help of selector switch "STANDBY SELECTION", let it be the first generator. Also with the help of selector switch number two we choose OPTIONAL load-sharing mode.
 
@@ -44,20 +37,18 @@ Now we can disconnect from shore:
 
 On this tab we can turn off CB of SHORE CONNECTION BOX:
 
-<div align="center">
 
-<img src="./assets/2_main_switchboard/tanker_shore_connection_box.PNG" width=700>
+![Screenshot](assets/2_main_switchboard/tanker_shore_connection_box.PNG)
 
-</div>
+
 
 Now we can see that the diesel-engine #1 automatically starts and the circuit breaker of generator was closed automatically.
 
 
-<div align="center">
 
-<img src="./assets/2_main_switchboard/tanker_mcd.PNG" width=700>
+![Screenshot](assets/2_main_switchboard/tanker_mcd.PNG)
 
-</div>
+
 
 
 Then we need to start the second engine, back to Synchro panel to do some preferences:
@@ -70,11 +61,10 @@ Then we need to start the second engine, back to Synchro panel to do some prefer
 
 Then we can go to the local control panel of diesel engine:
 
-<div align="center">
 
-<img src="./assets/2_main_switchboard/tanker_ge_lop.PNG" width=400>
+![Screenshot](assets/2_main_switchboard/tanker_ge_lop.PNG)
 
-</div>
+
 
 - ER3 → GE 1-2 LOP
   - set two-positional selector switch of starting generator in local mode;
