@@ -1,5 +1,8 @@
 
 
+
+
+
 <div align="center">
 
 #  Describe and demonstrate main simulator components and their designation. Models: A, B or C. #
@@ -18,9 +21,8 @@
 This is an Afromax tanker (LCC MAN B&W 6S60MC-C). It's length about two hundred and fifty meters, Average speed is about fifteen knots. This tanker uses diesel engine for propulsion.
 
 Model A consists of a bottom tabs where we can navigate through different places onboard the tanker:
-<div align="center">
-<img src="./assets/main_elements_of_simulator/tanker_nav_tab.PNG" width=700>
-</div>
+
+![Screenshot](assets/main_elements_of_simulator/tanker_nav_tab.PNG)
 
 - For example we can go to the bridge and look at the bridge control console (**BCC**). Where the deck department can control the vessel by different control elements like steering wheel.
 - Then we can see Engiene Control Room (**ECR**) where we can monitor and control the most of ER mechanisms like main engine.

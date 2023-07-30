@@ -1,12 +1,8 @@
 
-<div align="center">
 
 # EXAM #
 ### Helpful Links
-</div>
 
-
-<div align="center">
 
 |MODEL|NAME|LINKS|
 |-|-|-|
@@ -16,12 +12,6 @@
 
 
 
-
-</div>
-
-
-
-<div align="center">
 
 ### Questions
 
@@ -44,4 +34,3 @@
 |15|Main Engine or main generator engine control and safety system elements and functions.||A, B, C|
 
 
-</div>
