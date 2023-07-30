@@ -104,3 +104,5 @@ Then you can be asked to start electrical diesel oil pump and turn off pneumatic
   - switch SYNCRO/POWER → MANUAL;
   - decrease the load of disconnecting generator less then 10% of nominal power (use both handles)
   - open the Circuit Breaker with help of handle CONTROL CB of disconnecting generator
+
+
