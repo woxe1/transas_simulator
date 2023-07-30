@@ -1,2 +1,5 @@
 # transas_simulator
 This is fan page of transas marine simulator
+
+[1 **Main elements of models** ](https://github.com/woxe1/transas_simulator/blob/main/main_elements_of_simulator.md) 
+
