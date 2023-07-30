@@ -1,5 +1,12 @@
 
 
+<div align="center">
+
+# The main purpose of that question - describe all tabs and maybe a vessel partially #
+
+</div>
+
+
 ## Model A **TANKER** ##
 
 
@@ -92,3 +99,9 @@ AZIPOD - is an electrical moter that overboard in a special case, looks like:
 <div align="center">
 <img src="./assets/main_elements_of_simulator/azipod_overview.PNG" width=700>
 </div>
+
+
+ ### [ Abbreviations that maybe helpful for AZIPOD  ](./abbreviations/azipod_abbreviations.md) ###
+
+
+
