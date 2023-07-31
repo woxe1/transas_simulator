@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="WOXEL" /><link rel="canonical" href="http://example.com/hi/hero/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Tanker algo gen control - TRANSAS_SIMULATOR</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tanker algo gen control";
+        var mkdocs_page_input_path = "hi/hero/index.md";
+        var mkdocs_page_url = "/hi/hero/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> TRANSAS_SIMULATOR
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="" href=".">Home</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">TRANSAS_SIMULATOR</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li class="breadcrumb-item active">Tanker algo gen control</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tanker-algo-gen-control">Tanker algo gen control</h1>
+<h3 id="start-first-generator">Start first generator</h3>
+<ul>
+<li>SYS → FO ME GE Service System</li>
+<li>open pneumatic valve</li>
+</ul>
+<h1 id="_1"></h1>
+<ul>
+<li>MSB → Synchro Panel</li>
+<li>set STANDBY to 1 generator</li>
+<li>select load sharing - OPTIONAL</li>
+</ul>
+<h1 id="_2"></h1>
+<ul>
+<li>EmG → ESB Generator &amp; Shore Panels</li>
+<li>open the cb of SHORE POWER</li>
+<li>go to mcd and check that generator connected</li>
+</ul>
+<h1 id="_3"></h1>
+<h3 id="start-second-generator">Start second generator</h3>
+<ul>
+<li>MSB → Synchro Panel<ul>
+<li>press Alarm Reset</li>
+<li>switch Standby Selectrion → manual</li>
+<li>switch Synchronoscope → G2</li>
+<li>switch FREQ&amp;Voltmeter → G2</li>
+<li>switch SYNCRO/POWER → AUTO (if you are going to synchronize automatically)</li>
+</ul>
+</li>
+</ul>
+<h1 id="_4"></h1>
+<ul>
+<li>ER3 → GE 1-2 LOP</li>
+<li>set two-positional selector switch of starting generator in local mode;</li>
+<li>press the button START;</li>
+<li>return two-positional selector switch in the remote state;</li>
+<li>wait for 900 rpm on tachometer.</li>
+</ul>
+<h1 id="_5"></h1>
+<ul>
+<li>MSB → Synchro Panel</li>
+<li>switch SYNCRO/POWER → MANUAL;</li>
+<li>with help of handles GOVERNOR CONTROL decrease phase shift between generators</li>
+<li>when phase shift will be at 12 hours close the ACB of generator with help of ACB CONTROL switch</li>
+</ul>
+<h1 id="_6"></h1>
+<ul>
+<li>SYS → FO ME GE Service System</li>
+<li>click on the upper motor and start it from menu</li>
+<li>close the bottom valve</li>
+</ul>
+<h3 id="disconnect-generator">Disconnect generator</h3>
+<ul>
+<li>MSB → Synchro Panel</li>
+<li>switch SYNCRO/POWER → MANUAL;</li>
+<li>decrease the load of disconnecting generator less then 10% of nominal power (use both handles)</li>
+<li>open the Circuit Breaker with help of handle CONTROL CB of disconnecting generator</li>
+</ul>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
