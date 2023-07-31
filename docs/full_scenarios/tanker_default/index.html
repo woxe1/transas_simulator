@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="WOXEL" /><link rel="canonical" href="http://example.com/full_scenarios/tanker_default/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Tanker Default - TRANSAS_SIMULATOR</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tanker Default";
+        var mkdocs_page_input_path = "full_scenarios/tanker_default.md";
+        var mkdocs_page_url = "/full_scenarios/tanker_default/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> TRANSAS_SIMULATOR
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Full Scenarios</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Tanker Default</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tanker_troubleshooting/">Tanker Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tanker_vetting/">Tanker Vetting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../azipod_prepare_for_propulsion/">Azipod Prepare For Propulsion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lng_prepare_for_propulsion/">LNG Prepare For Propulsion</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">TRANSAS_SIMULATOR</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Full Scenarios &raquo;</li>
+      <li class="breadcrumb-item active">Tanker Default</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tanker-lcc-default">(Tanker LCC) Default</h1>
+<ul>
+<li>Sys → FO Service ME, GE System → Открыть воздушный клапан на топливный насос движков.</li>
+</ul>
+<h1 id="_1"></h1>
+<ul>
+<li>MSB → Synchro Panel → Stand by DG1 → Деление нагрузки Optional → EMG shore panel отключаемся от берега</li>
+</ul>
+<h1 id="_2"></h1>
+<ul>
+<li>Включаем синхроноскоп, убираем стендбай → ER3 GE LOP → Пуск GE2 → MSB берём в параллель</li>
+</ul>
+<h1 id="_3"></h1>
+<ul>
+<li>Sys → FO Service ME, GE System → Включаем насосы тяжелого топлива, выключаем воздушный дизельный насос → Перевод всего на CMS → Включаем вентиляцию МО (обязательно ли тяж.топл????)</li>
+</ul>
+<h1 id="_4"></h1>
+<ul>
+<li>SW Cooling system →  Пуск Main C.S.W pump → LT cooling system → Пуск LT C.S.W pump</li>
+</ul>
+<h1 id="_5"></h1>
+<ul>
+<li>BMCS → Pump Overview→ Пуск Circulation pump, Fuel Oil pump, Feed water pump 1,2 → Насосы перевести на авто, остальные в St-by</li>
+</ul>
+<h1 id="_6"></h1>
+<ul>
+<li>Sys → FO Auex.Boilers Sys→ Убеждаемся, что запущен топливный насос</li>
+</ul>
+<h1 id="_7"></h1>
+<ul>
+<li>CMS→ AUX Boiler F.W System→ Пуск Condensate water pump, второй в St-by</li>
+</ul>
+<h1 id="_8"></h1>
+<ul>
+<li>CMS → S.W Cooling system → Пуск Vacuum condenser sw pump, второй в St-by</li>
+</ul>
+<h1 id="_9"></h1>
+<ul>
+<li>CMS→ AUX Boiler F.W System→ Открываем клапана (красная ветка)</li>
+</ul>
+<h1 id="_10"></h1>
+<ul>
+<li>ER4 → Boiler 1,2 control panel  → Сбрасываем алармы</li>
+</ul>
+<h1 id="_11"></h1>
+<ul>
+<li>BMCS → Burner Overview → Boiler 1 на Auto и Master → Boiler 2 на Auto и Slave</li>
+</ul>
+<h1 id="_12"></h1>
+<ul>
+<li>ER3 → FO Purifiers 1,2 LOP → Взводим автоматы, включаем переключатели на On</li>
+</ul>
+<h1 id="_13"></h1>
+<ul>
+<li>ER3 → LGSP4 → Пуск No 1,2 HFO Purifier и HFO Purifier feed pump</li>
+</ul>
+<h1 id="_14"></h1>
+<ul>
+<li>CMS → FO Purifing System → Открыть клапан</li>
+</ul>
+<h1 id="_15"></h1>
+<ul>
+<li>ER3 → FO Purifiers 1,2 LOP → Auto Start (температуры 90, 89)</li>
+</ul>
+<h1 id="_16"></h1>
+<ul>
+<li>SG → Пуск Рулёвки (две)</li>
+</ul>
+<h1 id="_17"></h1>
+<ul>
+<li>ER3 → Aux Blowers 1,2 LOP → Remote</li>
+</ul>
+<h1 id="_18"></h1>
+<ul>
+<li>CMS → HT Cooling System → Пуск насоса, второй St-by, Переводим клапана на подогреватель, закрываем перепускной клапан</li>
+</ul>
+<h1 id="_19"></h1>
+<ul>
+<li>CMS → LO Service system → Пуск масляного насоса, второй St-by</li>
+</ul>
+<h1 id="_20"></h1>
+<ul>
+<li>ECR → ECC B Bottom panel → Повернуть на MCU, пуск pump 1 и prelub</li>
+</ul>
+<h1 id="_21"></h1>
+<ul>
+<li>DIAG → Cylinder Combustion Process → Открываем все индикаторные клапана</li>
+</ul>
+<h1 id="_22"></h1>
+<ul>
+<li>ER1 → Turning Gear LOP → Пуск валоповоротки, зацепляем проворачиваем, размыкаем. Закрываем индикаторные клапана (22 наоборот)</li>
+</ul>
+<h1 id="_23"></h1>
+<ul>
+<li>CMS → HT Cooling System → Закрываем клапана на подогреватель, открываем перепускной клапан</li>
+</ul>
+<h1 id="_24"></h1>
+<ul>
+<li>ECR → ECC B Bottom panel → Start → Stop → Передаем управление на мостик</li>
+</ul>
+<h1 id="_25"></h1>
+<ul>
+<li>BCC → BCC B → Квитируем алармы, Принимаем управление →  Даём ход </li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../tanker_troubleshooting/" class="btn btn-neutral float-right" title="Tanker Troubleshooting">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="../tanker_troubleshooting/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

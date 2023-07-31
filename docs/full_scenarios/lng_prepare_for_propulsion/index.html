@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="WOXEL" /><link rel="canonical" href="http://example.com/full_scenarios/lng_prepare_for_propulsion/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>LNG Prepare For Propulsion - TRANSAS_SIMULATOR</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "LNG Prepare For Propulsion";
+        var mkdocs_page_input_path = "full_scenarios/lng_prepare_for_propulsion.md";
+        var mkdocs_page_url = "/full_scenarios/lng_prepare_for_propulsion/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> TRANSAS_SIMULATOR
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Full Scenarios</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../tanker_default/">Tanker Default</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tanker_troubleshooting/">Tanker Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tanker_vetting/">Tanker Vetting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../azipod_prepare_for_propulsion/">Azipod Prepare For Propulsion</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">LNG Prepare For Propulsion</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">TRANSAS_SIMULATOR</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Full Scenarios &raquo;</li>
+      <li class="breadcrumb-item active">LNG Prepare For Propulsion</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="lng-short-algo-start-generator-and-take-in-parallel-operation">LNG Short algo start generator and take in parallel operation</h1>
+<h1 id="precautions">Precautions</h1>
+<ul>
+<li>IAS → MAING GE FUEL OIL SERVICE SYSTEM<ul>
+<li>start MAIN G.E. MDO SUPPLY P/P #1</li>
+<li>start MAIN G.E. H.F.O. supply pump</li>
+<li>start F.O. BOOSTER PUMP</li>
+<li>start PILOT F.O. SUPPLY PUMP</li>
+</ul>
+</li>
+</ul>
+<h1 id="_1"></h1>
+<ul>
+<li>MSB → LV MSB1 → GSP 1/3<ul>
+<li>switch to local G/E  G.V.U. ROOM (STBD) No2 EXH.FAN (ESB)</li>
+<li>press start</li>
+<li>back to remote position</li>
+</ul>
+</li>
+</ul>
+<h1 id="_2"></h1>
+<ul>
+<li>EMG → ESB GROUP STARTER PANEL<ul>
+<li>switch to local No2 E/R SUPPLY FAN (2 SPEED) REV</li>
+<li>press START HIGH SUPPLY</li>
+<li>back to remote</li>
+</ul>
+</li>
+</ul>
+<h1 id="_3"></h1>
+<ul>
+<li>IAS → MAIN MENU → No1 MAIN GENERATOR ENGINE<ul>
+<li>start JACK UP P/P N-END</li>
+<li>start JACK UP P/P D-END</li>
+<li>start L.O. P/P N-END</li>
+<li>start L.O. P/P D-END</li>
+</ul>
+</li>
+</ul>
+<h1 id="_4"></h1>
+<h2 id="starting-dg">Starting DG</h2>
+<ul>
+<li>ER2 → MG1 LOP<ul>
+<li>switch to local</li>
+<li>press main menu → engine start/stop → start → confirmation</li>
+<li>wait for 514 rpm (about)</li>
+<li>switch to remote</li>
+</ul>
+</li>
+</ul>
+<h1 id="_5"></h1>
+<ul>
+<li>MSB → MCD<ul>
+<li>check that the generator working (red) and buses are green(without power)</li>
+</ul>
+</li>
+</ul>
+<h1 id="_6"></h1>
+<ul>
+<li>MSB → HV MSB1 → Synchro &amp; bus tie panel<ul>
+<li>switch synchronoscope to gen 1 (not necessary due to absence of power on buses)</li>
+<li>switch GEN 1 MODE → AUTO LOC</li>
+<li>switch GEN 1 CB → CLOSE</li>
+</ul>
+</li>
+</ul>
+<h1 id="_7"></h1>
+<h2 id="connection-additional-switchboard">Connection additional switchboard</h2>
+<ul>
+<li>MSB → MCD<ul>
+<li>HM1LM1 →  MAIN TRANS HV CSBD No1 (4500 kVA) → HM1LM1 CB CONTROL → CLOSE</li>
+<li>LM1HM1 → INCOMING Bus Tie Panel → LV MSB No1 INCOMING PANEL → ACB CONTROL → CLOSE</li>
+<li>LM1LM2 → LV MSB No 1 BUS TIE PANEL → BUS TIE ACB CONTROL → CLOSE</li>
+<li>HM2HC2 → MAIN TRANS HV CSBD No2 PANEL (4500 kVA) → HM2LM2 CB CONTROL→ CLOSE</li>
+<li>LM2HM2 →INCOMING Bus Tie Panel → LV MSB No2 INCOMING PANEL → ACB CONTROL → CLOSE</li>
+<li>LM2LM1  → LV MSB No 2 BUS TIE PANEL → BUS TIE ACB CONTROL → CLOSE</li>
+</ul>
+</li>
+</ul>
+<h2 id="starting-cooling-pumps-and-fans">Starting cooling pumps and fans</h2>
+<ul>
+<li>IAS → COOLING S.W &amp; SERVICE SYS.<ul>
+<li>start MAIN C.S.W. PUMP #1</li>
+<li>N2 to stand-by</li>
+<li>start AUX C.S.W. PUMP #1</li>
+<li>N2 to stand-by</li>
+</ul>
+</li>
+</ul>
+<h1 id="_8"></h1>
+<ul>
+<li>IAS → AUXUILIARY LT COOLING F.W. SYSTEM<ul>
+<li>startAUX EQUIP C.F.W. PUMP #1</li>
+<li>N2 to standby</li>
+</ul>
+</li>
+</ul>
+<h1 id="_9"></h1>
+<ul>
+<li>MCB → LV MSB N1 → GSP 1/3<ul>
+<li>switch to local No 1 E/R SUPPLY EXH FAN</li>
+<li>start</li>
+<li>switch to remote</li>
+<li>switch to local No 3 E/R SUPPLY FAN</li>
+<li>start</li>
+<li>switch to remote</li>
+</ul>
+</li>
+</ul>
+<h2 id="boilers-preparing">Boilers preparing</h2>
+<ul>
+<li>ER4 → Dual Fuel Boiler No1 Control Panel<ul>
+<li>press RESET button</li>
+<li>press CONTROL MODES → BOILER No1 to MASTER MODE</li>
+<li>HOME → DIESEL OIL PUMPS → PUMP No1 (green)</li>
+<li>Boiler overview → FD FAN → START</li>
+<li>Atom Steam → SELECT</li>
+<li>DO → SELECT</li>
+<li>Oil Burner → START
+  #</li>
+</ul>
+</li>
+<li>ER4 → EGE Feed Water Circ. Pump CP<ul>
+<li>No 1 EGE FEED WATER CIRC PUMP → START</li>
+<li>waiting for heating and starting of boiler (you can watch in BOILER OVERVIEW ER4)</li>
+</ul>
+</li>
+</ul>
+<h2 id="preparing-dg-n4">Preparing DG N4</h2>
+<ul>
+<li>IAS → MAIN G/E F.O. SERVICE SYSTEM (2/2)<ul>
+<li>start MAIN G.E M.D.O. SUPPLY P/P N1</li>
+<li>start MAIN G.E. H.F.O. SUPPLY P/P</li>
+<li>start pilot F.O. SUPPLY P/P</li>
+<li>start F.O. BOOSTER PUMP No4</li>
+</ul>
+</li>
+</ul>
+<h1 id="_10"></h1>
+<ul>
+<li>IAS → NO. 4 MAIN GENERATOR ENGINE<ul>
+<li>start JACK Up P/P N-END</li>
+<li>start JACK UP P/P D-END</li>
+<li>start L.O. P/P N-END</li>
+<li>start L.O. P/P D-END</li>
+</ul>
+</li>
+</ul>
+<h1 id="_11"></h1>
+<ul>
+<li>ER2 → MG4 LOP<ul>
+<li>switch control mode to local</li>
+<li>RESET BLOCKS → RESET - AUTOMATIC SHUTDOWN</li>
+<li>MAIN OVERVIEW → MAIN MENU → ENGINE START/STOP → RESET → START → CONFIRMAION</li>
+<li>switch control mode back to remote</li>
+<li>go to MSB  → MCD and check that the GEN4 RUNNING</li>
+</ul>
+</li>
+</ul>
+<h1 id="_12"></h1>
+<ul>
+<li>MSB  → HV MSB2  → SYNCHRO &amp; TG Panel<ul>
+<li>switch SYNCHRONOSCOPE TO  → GEN 4</li>
+<li>GEN 4 MODE → AUTO LOC    (then recomend check all generators for remote control mode)</li>
+<li>GEN 4 CB  → CLOSE (<strong>pull it until closing!!!</strong>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="check-cooling-of-propulsion-motors">Check cooling of propulsion motors</h2>
+<ul>
+<li>ER1 → LGSP 1<ul>
+<li><strong>START ALL PUMPS ON THAT PAGE DON'T FORGET PLACE TO REMOTE AFTER STARTING!!!</strong></li>
+</ul>
+</li>
+</ul>
+<h1 id="_13"></h1>
+<ul>
+<li>IAS  → NO1 PROPULSION MOTOR<ul>
+<li>ALARMS ACKN</li>
+<li>wait for all alarms releasing</li>
+</ul>
+</li>
+</ul>
+<h1 id="_14"></h1>
+<ul>
+<li>
+<p>ER2 → PM STBD LOP</p>
+<ul>
+<li>press SUPPLY → ON</li>
+</ul>
+</li>
+<li>
+<p>ER2 → PM PORT LOP</p>
+<ul>
+<li>press SUPPLY → ON</li>
+</ul>
+</li>
+<li>
+<p>IAS → NO1 PROPULSION MOTOR</p>
+<ul>
+<li>just check that all pumps working</li>
+</ul>
+</li>
+</ul>
+<h2 id="start-turning-gear">START TURNING GEAR</h2>
+<ul>
+<li>
+<p>ER 1 → PM RG Turning Gear <strong>STBD</strong> LOP</p>
+<ul>
+<li>switch to ENGAGE</li>
+<li>press START</li>
+</ul>
+</li>
+<li>
+<p>ER 1 → PM RG Turning Gear <strong>PORT</strong> LOP</p>
+<ul>
+<li>switch to ENGAGE</li>
+<li>press START</li>
+</ul>
+</li>
+<li>
+<p>IAS → STERN TUBE LO SERV. SYSTEM (<strong>STBD</strong>)</p>
+<ul>
+<li>start S/T L.O. CIRC P/P</li>
+</ul>
+</li>
+<li>
+<p>IAS → STERN TUBE LO SERV. SYSTEM (<strong>PORT</strong>)</p>
+<ul>
+<li>start S/T L.O. CIRC P/P</li>
+</ul>
+</li>
+</ul>
+<h2 id="stop-turning-gear">STOP TURNING GEAR</h2>
+<ul>
+<li>ER 1 → PM RG Turning Gear <strong>STBD</strong> LOP<ul>
+<li>press STOP</li>
+<li>switch to DISENGAGE</li>
+</ul>
+</li>
+</ul>
+<h1 id="_15"></h1>
+<ul>
+<li>ER 1 → PM RG Turning Gear <strong>PORT</strong> LOP<ul>
+<li>press STOP</li>
+<li>switch to DISENGAGE</li>
+</ul>
+</li>
+</ul>
+<h1 id="_16"></h1>
+<ul>
+<li>IAS → ALARMS ACKN (just for check)</li>
+</ul>
+<h1 id="_17"></h1>
+<h2 id="prepare-for-propulsion">Prepare for propulsion</h2>
+<ul>
+<li>ER2 → PM PORT LOP<ul>
+<li>switch to LOCAL</li>
+<li>press button LOC.REM</li>
+<li>press button START DRIVE</li>
+<li>back to remote</li>
+</ul>
+</li>
+</ul>
+<h1 id="_18"></h1>
+<ul>
+<li>ER2 → PM STBD LOP<ul>
+<li>switch to LOCAL</li>
+<li>press button LOC.REM</li>
+<li>press button START DRIVE</li>
+<li>back to remote</li>
+</ul>
+</li>
+</ul>
+<h1 id="_19"></h1>
+<ul>
+<li>ECR → ECR PM CONTROL PANEL<ul>
+<li>press ACCEPT COMMAND</li>
+<li>pull handles to DEAD SLOW ( start ahead ... YEAHHH)</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../azipod_prepare_for_propulsion/" class="btn btn-neutral float-left" title="Azipod Prepare For Propulsion"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../azipod_prepare_for_propulsion/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

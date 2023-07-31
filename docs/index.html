@@ -39,9 +39,18 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Full Scenarios</span></p>
               <ul>
-                <li class="toctree-l1"><a class="" href="hi/hero">Home</a>
-                </li>
+                  <li class="toctree-l1"><a class="reference internal" href="full_scenarios/tanker_default/">Tanker Default</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="full_scenarios/tanker_troubleshooting/">Tanker Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="full_scenarios/tanker_vetting/">Tanker Vetting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="full_scenarios/azipod_prepare_for_propulsion/">Azipod Prepare For Propulsion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="full_scenarios/lng_prepare_for_propulsion/">LNG Prepare For Propulsion</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -67,7 +76,136 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="welcome-to-gos">Welcome to gos</h1>
-<p>Your content goes here.</p>
+<h3 id="helpful-links">Helpful Links</h3>
+<table>
+<thead>
+<tr>
+<th>MODEL</th>
+<th>NAME</th>
+<th>LINKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>TANKER</td>
+<td><a href="https://www.youtube.com/watch?v=vs2tbcEfeyE">Tanker Firefighting video</a> <br><a href="https://www.youtube.com/watch?v=62zhb7z_1Ww">Tanker TroubleShooting video</a> <a href="https://github.com/woxe1/transas_simulator/blob/main/text_scenario_tanker_troubleshooting.md"> <strong>Text Scenario</strong> </a> <br><a href="https://youtu.be/nkz5eX2ZtO8"> Tanker Default Video. DOCK </a> <a href="https://github.com/woxe1/transas_simulator/blob/main/text_scenario_tanker_default.md"> <strong>Text Scenario</strong> </a><br><a href="https://youtu.be/HJbkmnCj6qQ">Tanker Vetting Video </a>  <a href="https://github.com/woxe1/transas_simulator/blob/main/text_scenario_tanker_vetting.md"> <strong>Text Scenario</strong> </a> <br><a href="./abbreviations/tanker_abbreviations.md">Tanker Abbreviations</a></td>
+</tr>
+<tr>
+<td>B</td>
+<td>LNG</td>
+<td><a href="https://youtu.be/gzY0J_s53Js">LNG repair circuit breaker video</a> <br><a href="https://youtu.be/qFQXpVJAslA">LNG Prepare for propulsion video</a> <a href="https://github.com/woxe1/transas_simulator/blob/main/text_scenario_lng_prepare_for_propulsion.md"><strong>Text Scenario</strong></a> <br> <a href="./abbreviations/dual_fuel_abbreviations.md"> LNG Abbreviations   </a></td>
+</tr>
+<tr>
+<td>C</td>
+<td>AZIPOD</td>
+<td><a href="./abbreviations/azipod_abbreviations.md"> Abbreviations that maybe helpful for AZIPOD  </a><br> <a href="https://youtu.be/knJQXcWfj0Y">AZIPOD Prepare for propulsion video</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="questions">Questions</h3>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Text</th>
+<th>Answer</th>
+<th>Models</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Describe and demonstrate main simulator components and their designation.</td>
+<td><a href="https://github.com/woxe1/transas_simulator/blob/main/1_main_elements_of_simulator.md"> <strong>Main elements of models</strong> </a></td>
+<td>A, B, C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Main switchboard generator’s panel components and their functions. Perform and explain necessary steps for generator engine start, stop, generator connection to the dead bus and for parallel operation, disconnection, load transfer and sharing. (Models A, B, C).</td>
+<td><a href="https://github.com/woxe1/transas_simulator/blob/main/2_main_switchboard_generator_panel.md"> <strong>Tanker generator panels</strong> </a> <br><a href="https://github.com/woxe1/transas_simulator/blob/main/2_tanker_short_algo.md"> <strong>Tanker short algo</strong> </a> <br> <a href="https://github.com/woxe1/transas_simulator/blob/main/2_lng_short_algo.md"> <strong>LNG short algo</strong> </a> <br> <a href="https://github.com/woxe1/transas_simulator/blob/main/2_azipod_short_algo.md"> <strong>LNG short algo</strong> </a></td>
+<td>A, B, C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Main switchboard sections components and their designation. Control of MSBD 1 &amp; 2 parallel and independent operations.</td>
+<td></td>
+<td>B, C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Engine room systems for the main engine: FO, LO, LT &amp; HT cooling water, Compressed air. Describe and explain methods of auxiliaries’ control: from the starter panel, from the local remote control panel, using the automation system (CMS, IAS, ICMS).</td>
+<td></td>
+<td>A,B,C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Engine room systems for the Auxiliary Boiler plant: FO, feed water, steam and condensate. Describe and explain methods of auxiliaries’ control: local, remote, AUTO / MAN. Models:  A only.</td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Stand-by generator preparation, start and parallel operations. Generator control modes available for vessel model. Load sharing.</td>
+<td></td>
+<td>A, B, C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Port State control inspection: main steps to be demonstrated and explained in accordance with Scenario «Vetting».</td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Electrical equipment and automation fault findings and remedial actions: main steps to be demonstrated and explained for the scenario «Troubleshooting for ETO».</td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Fault findings and remedial actions: main steps to be demonstrated and explained for the scenario «Generator No.1 fault test»</td>
+<td></td>
+<td>B</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Azipod power plant – preparing for propulsion. Main steps to be demonstrated and explained in accordance with Scenario «Azipod. Preparing for propulsion». Модель C.</td>
+<td></td>
+<td>C</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Describe and demonstrate Main Generator preparation for maintenance: isolation, including lock-out / tag-out and earthing procedures.</td>
+<td></td>
+<td>B</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Shore Power supply: main components and functions. Transfer of power supply from shore to ship’s own power and vice-versa. Main steps to be demonstrated and explained in accordance with Scenario «Default».</td>
+<td></td>
+<td>A</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Depending on Vessel Model: Control and Monitoring System (CMS) or Alarm Monitoring System (AMS) or Integrated Automation System (IAS): main components, functions and operations.</td>
+<td></td>
+<td>A, B, C</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Diesel-generator local control station / panel, including safety devices – main components and functions.</td>
+<td></td>
+<td>A, B, C</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Main Engine or main generator engine control and safety system elements and functions.</td>
+<td></td>
+<td>A, B, C</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div><footer>
@@ -111,5 +249,5 @@
 
 <!--
 MkDocs version : 1.5.1
-Build Date UTC : 2023-07-31 14:52:40.254777+00:00
+Build Date UTC : 2023-07-31 15:09:54.711422+00:00
 -->

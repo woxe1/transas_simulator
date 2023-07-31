@@ -6,12 +6,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://example.com/hi/</loc>
+         <loc>http://example.com/full_scenarios/azipod_prepare_for_propulsion/</loc>
          <lastmod>2023-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://example.com/hi/hero/</loc>
+         <loc>http://example.com/full_scenarios/lng_prepare_for_propulsion/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/full_scenarios/tanker_default/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/full_scenarios/tanker_troubleshooting/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/full_scenarios/tanker_vetting/</loc>
          <lastmod>2023-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
