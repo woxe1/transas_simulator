@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://example.com/answers_for_questions/1_main_elements_of_simulator/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://example.com/full_scenarios/azipod_prepare_for_propulsion/</loc>
          <lastmod>2023-07-31</lastmod>
          <changefreq>daily</changefreq>
