@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="WOXEL" /><link rel="canonical" href="http://example.com/answers_for_questions/2_parallel_operation/a_tanker/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Model A Tanker - TRANSAS_SIMULATOR</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Model A Tanker";
+        var mkdocs_page_input_path = "answers_for_questions/2_parallel_operation/a_tanker.md";
+        var mkdocs_page_url = "/answers_for_questions/2_parallel_operation/a_tanker/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> TRANSAS_SIMULATOR
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Full Scenarios</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../full_scenarios/tanker_default/">Tanker Default</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../full_scenarios/tanker_troubleshooting/">Tanker Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../full_scenarios/tanker_vetting/">Tanker Vetting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../full_scenarios/azipod_prepare_for_propulsion/">Azipod Prepare For Propulsion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../full_scenarios/lng_prepare_for_propulsion/">LNG Prepare For Propulsion (NOT DEFAULT)</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Answers For Questions</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">1. Main elements of simulator</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../1_main_elements_of_simulator/a_tanker/">Model A Tanker</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../1_main_elements_of_simulator/b_lng/">Model B LNG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../1_main_elements_of_simulator/c_azipod/">Model C AZIPOD</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">2. Generator's parallel operation</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Model A Tanker</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../b_lng/">Model B LNG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../c_azipod/">Model C AZIPOD</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">TRANSAS_SIMULATOR</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Answers For Questions &raquo;</li>
+          <li>2. Generator's parallel operation &raquo;</li>
+      <li class="breadcrumb-item active">Model A Tanker</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="model-a-tanker">Model A <strong>TANKER</strong></h1>
+<h1 id="start">Start</h1>
+<p>For starting drive engine a few precautions should be taken:</p>
+<ul>
+<li>We should check engine parameters. That's parameters depend on the current condition of vessel
+for example if some maitenance was taken on generator before working with it, we should
+check that the air is opened.</li>
+<li>Also we should check thet the fuel valves is opened and the fuel is available.</li>
+<li>We should check that the cooling water is available if the engine has water cooling</li>
+<li>Also recomended to start priming pump if it doesn't work automatically</li>
+<li>You should check that there is no alarms on Local control panels and reset them if they are.
+In this model it done by help of lever on the LOP. ER3 → GE LOP</li>
+</ul>
+<p><strong>After start we should wait for the engine to reach the required speed about eight hundred RPM.</strong></p>
+<h1 id="stopping">Stopping</h1>
+<p>Engine doesn't stop in moment. Drive engine will work for cooling it's parts and then it will stop.</p>
+<h1 id="gen-connection-to-the-dead-bus">Gen connection to the dead bus</h1>
+<p>Connection to the dead bus we can do without control only one parameter - that the generator
+was connected correctly in according with scheme for providing the correct phase sequence.</p>
+<h1 id="gen-connection-for-parallel-operation">Gen connection for parallel operation</h1>
+<p>When we are going to connect generator to work in parallel operation we should check four parameters:
+- phase shift of connecting generator (by means of synchronoscope)
+- voltage of connecting generator (by means of voltmeter) 
+- frequency of connecting generator (by means of frequency meter)
+- phase sequence (by means of phase sequence indicator it's absent on this model but we can check connections)</p>
+<h1 id="disconnection">Disconnection</h1>
+<p>For disconnection your generator should have less then 10% of it's nominal load for prevent
+a big currents on the working generator. After that we can disconnect it from the bus.</p>
+<h1 id="load-transfersharing">load transfer/sharing</h1>
+<p>We can share load between generators by means of automatic load-sharing system.
+That system change the value of fuel feed to the engine so can change the active
+power of the generator.
+Also we can do it by means manual control with help of load-sharing levers.
+When we transfer load from one generator to another we should control frequncy
+of the electrical system. And when we raise fuel feed with help of one governor handle
+we sholud decrease the fuel feed with the other governor handle.</p>
+<pre><code>ATTENTION: We have two types of load: Active and Reactive load. 
+the edge between control of that loads
+is very smooth, you can't control full perfomance of generator 
+only by means of fuel feed, you
+also should control generator magnetization, but in the most 
+cases it's done autmatically by means of
+AVR (Automatic Voltage Regulator).
+</code></pre>
+<h1 id="_1"></h1>
+<pre><code>WARNING: BEFORE DO ANY REPAIRS ON GENERATOR ENGINES WE SHOULD STOP THE
+GENERATOR AND BLOCK AIR INLET FOR PREVENT STARTING!!!!
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../1_main_elements_of_simulator/c_azipod/" class="btn btn-neutral float-left" title="Model C AZIPOD"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../b_lng/" class="btn btn-neutral float-right" title="Model B LNG">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../1_main_elements_of_simulator/c_azipod/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../b_lng/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
