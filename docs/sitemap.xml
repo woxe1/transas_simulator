@@ -6,6 +6,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://example.com/abbreviations/a_tanker/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/abbreviations/b_lng/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/abbreviations/c_azipod/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://example.com/answers_for_questions/1_main_elements_of_simulator/a_tanker/</loc>
          <lastmod>2023-07-31</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +47,21 @@
     </url>
     <url>
          <loc>http://example.com/answers_for_questions/2_parallel_operation/c_azipod/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/answers_for_questions/3_main_switchboard_components/a_tanker/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/answers_for_questions/3_main_switchboard_components/b_lng/</loc>
+         <lastmod>2023-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://example.com/answers_for_questions/3_main_switchboard_components/c_azipod/</loc>
          <lastmod>2023-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="WOXEL" /><link rel="canonical" href="http://example.com/abbreviations/c_azipod/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Model C AZIPOD - TRANSAS_SIMULATOR</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Model C AZIPOD";
+        var mkdocs_page_input_path = "abbreviations/c_azipod.md";
+        var mkdocs_page_url = "/abbreviations/c_azipod/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> TRANSAS_SIMULATOR
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Full Scenarios</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../full_scenarios/tanker_default/">Tanker Default</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../full_scenarios/tanker_troubleshooting/">Tanker Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../full_scenarios/tanker_vetting/">Tanker Vetting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../full_scenarios/azipod_prepare_for_propulsion/">Azipod Prepare For Propulsion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../full_scenarios/lng_prepare_for_propulsion/">LNG Prepare For Propulsion (NOT DEFAULT)</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Answers For Questions</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">1. Main elements of simulator</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../answers_for_questions/1_main_elements_of_simulator/a_tanker.md.md">Model A Tanker</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/1_main_elements_of_simulator/b_lng/">Model B LNG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/1_main_elements_of_simulator/c_azipod/">Model C AZIPOD</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">2. Generator's parallel operation</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/2_parallel_operation/a_tanker/">Model A Tanker</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/2_parallel_operation/b_lng/">Model B LNG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/2_parallel_operation/c_azipod/">Model C AZIPOD</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">3. MSB Components</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/3_main_switchboard_components/a_tanker/">-Model A Tanker</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/3_main_switchboard_components/b_lng/">-Model B LNG</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../answers_for_questions/3_main_switchboard_components/c_azipod/">-Model C Azipod</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Abbreviations</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../a_tanker/">Model A Tanker</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../b_lng/">Model B LNG</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Model C AZIPOD</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">TRANSAS_SIMULATOR</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Abbreviations &raquo;</li>
+      <li class="breadcrumb-item active">Model C AZIPOD</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="dual-fuel-lng-abbreviations">DUAL-FUEL-LNG ABBREVIATIONS</h1>
+<table>
+<thead>
+<tr>
+<th>abbreviation</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A.P. (AP)</td>
+<td>After Peak</td>
+</tr>
+<tr>
+<td>ACB Air</td>
+<td>Circuit Breaker</td>
+</tr>
+<tr>
+<td>AH</td>
+<td>Ahead</td>
+</tr>
+<tr>
+<td>AHU</td>
+<td>Air Handling Unit</td>
+</tr>
+<tr>
+<td>AS</td>
+<td>Astern</td>
+</tr>
+<tr>
+<td>BAC</td>
+<td>Boiler Automatic Control system</td>
+</tr>
+<tr>
+<td>BCD</td>
+<td>Battery Charger/Discharger</td>
+</tr>
+<tr>
+<td>BLR</td>
+<td>Boiler</td>
+</tr>
+<tr>
+<td>BMS</td>
+<td>Burner Management System</td>
+</tr>
+<tr>
+<td>BNR</td>
+<td>Burner</td>
+</tr>
+<tr>
+<td>BOG</td>
+<td>Boil Off Gas</td>
+</tr>
+<tr>
+<td>BW</td>
+<td>Bilge Well</td>
+</tr>
+<tr>
+<td>C.F.W. (CFW)</td>
+<td>Cooling Fresh Water</td>
+</tr>
+<tr>
+<td>C.S.W. (CSW)</td>
+<td>Circulating / Cooling Sea Water</td>
+</tr>
+<tr>
+<td>CB</td>
+<td>Circuit Breaker</td>
+</tr>
+<tr>
+<td>CSBD</td>
+<td>Cargo Switchboard</td>
+</tr>
+<tr>
+<td>CVU</td>
+<td>Combustion Vacuum Unit</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>Dual Fuel</td>
+</tr>
+<tr>
+<td>D.O. (DO)</td>
+<td>Diesel Oil</td>
+</tr>
+<tr>
+<td>E/G (EG)</td>
+<td>(EmG) Emergency Generator</td>
+</tr>
+<tr>
+<td>E/R (ER)</td>
+<td>Engine Room</td>
+</tr>
+<tr>
+<td>E/S</td>
+<td>Engine Side</td>
+</tr>
+<tr>
+<td>ECR</td>
+<td>Engine Control Room</td>
+</tr>
+<tr>
+<td>EMCY (EM’CY)</td>
+<td>Emergency</td>
+</tr>
+<tr>
+<td>ESB</td>
+<td>Emergency Switch Board</td>
+</tr>
+<tr>
+<td>EXH</td>
+<td>Exhaust</td>
+</tr>
+<tr>
+<td>F.D. (FD)</td>
+<td>Forced draft / Feed</td>
+</tr>
+<tr>
+<td>F.O. (FO)</td>
+<td>Fuel Oil</td>
+</tr>
+<tr>
+<td>F.P. (FP)</td>
+<td>Fore Peak</td>
+</tr>
+<tr>
+<td>F.W. (FW)</td>
+<td>Fresh Water</td>
+</tr>
+<tr>
+<td>FFS</td>
+<td>Fire Fighting System</td>
+</tr>
+<tr>
+<td>FG</td>
+<td>Fuel Gas</td>
+</tr>
+<tr>
+<td>FPP</td>
+<td>Fixed Pitch Propeller</td>
+</tr>
+<tr>
+<td>GFT</td>
+<td>Gas Fuel Trip</td>
+</tr>
+<tr>
+<td>GB</td>
+<td>Generator Breaker</td>
+</tr>
+<tr>
+<td>GCU (G.C.U.)</td>
+<td>Gas Combustion Unit</td>
+</tr>
+<tr>
+<td>GSP</td>
+<td>Group Starter Panel</td>
+</tr>
+<tr>
+<td>G.V.E. (GVE)</td>
+<td>Gas Valve Enclosure</td>
+</tr>
+<tr>
+<td>G.V.U. (GVU)</td>
+<td>Gas Valve Unit</td>
+</tr>
+<tr>
+<td>H.E. (HE)</td>
+<td>High Expansion</td>
+</tr>
+<tr>
+<td>H.F.O. (HFO)</td>
+<td>Heavy Fuel Oil</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Human Machine Interface</td>
+</tr>
+<tr>
+<td>H.T. (HT)</td>
+<td>High Temperature</td>
+</tr>
+<tr>
+<td>HOT</td>
+<td>Hydraulic Oil Tank</td>
+</tr>
+<tr>
+<td>HPP</td>
+<td>Hydraulic Power Pack</td>
+</tr>
+<tr>
+<td>HPU</td>
+<td>Hydraulic Power Unit</td>
+</tr>
+<tr>
+<td>HTR</td>
+<td>Heater</td>
+</tr>
+<tr>
+<td>HV</td>
+<td>High Voltage</td>
+</tr>
+<tr>
+<td>IR</td>
+<td>Infra Red</td>
+</tr>
+<tr>
+<td>L.O. (LO)</td>
+<td>Lube Oil</td>
+</tr>
+<tr>
+<td>L.P. (LP)</td>
+<td>Low Pressure</td>
+</tr>
+<tr>
+<td>L/T (LT, L.T.)</td>
+<td>Low Temperature</td>
+</tr>
+<tr>
+<td>LAH</td>
+<td>Level Alarm High</td>
+</tr>
+<tr>
+<td>LAL</td>
+<td>Level Alarm Low</td>
+</tr>
+<tr>
+<td>LCD</td>
+<td>Liquid Crystal Display</td>
+</tr>
+<tr>
+<td>LCP</td>
+<td>Local Control Panel</td>
+</tr>
+<tr>
+<td>LED</td>
+<td>Light Emitting Diode</td>
+</tr>
+<tr>
+<td>LGSP</td>
+<td>Local Group Starter Panel</td>
+</tr>
+<tr>
+<td>LH</td>
+<td>Level High</td>
+</tr>
+<tr>
+<td>LHH</td>
+<td>Level High High</td>
+</tr>
+<tr>
+<td>LIAH</td>
+<td>Level Indicator Alarm High</td>
+</tr>
+<tr>
+<td>LL</td>
+<td>Level Low</td>
+</tr>
+<tr>
+<td>LLL</td>
+<td>Level Low Low</td>
+</tr>
+<tr>
+<td>LOP</td>
+<td>Local Operating Panel</td>
+</tr>
+<tr>
+<td>LV</td>
+<td>Low Voltage</td>
+</tr>
+<tr>
+<td>M.G.P.S. (MGPS)</td>
+<td>Marine Growth Prevention System</td>
+</tr>
+<tr>
+<td>M/G (MG)</td>
+<td>Main Generator</td>
+</tr>
+<tr>
+<td>M/S</td>
+<td>Machine Side</td>
+</tr>
+<tr>
+<td>MCD</td>
+<td>Main Circuit Diagram</td>
+</tr>
+<tr>
+<td>MDO</td>
+<td>Marine Diesel Oil</td>
+</tr>
+<tr>
+<td>MFT</td>
+<td>Master Fuel Trip</td>
+</tr>
+<tr>
+<td>MGO</td>
+<td>Marine Gas Oil</td>
+</tr>
+<tr>
+<td>MSB</td>
+<td>(MSBD, MSWB) Main Switch Board</td>
+</tr>
+<tr>
+<td>MVR</td>
+<td>Manual Voltage Regulator</td>
+</tr>
+<tr>
+<td>NOR</td>
+<td>Normal</td>
+</tr>
+<tr>
+<td>OFT</td>
+<td>Oil Fuel Trip</td>
+</tr>
+<tr>
+<td>O.W.S. (OWS)</td>
+<td>Oily Water Separator</td>
+</tr>
+<tr>
+<td>OP</td>
+<td>Output variable</td>
+</tr>
+<tr>
+<td>P/P (PP)</td>
+<td>Pump(s)</td>
+</tr>
+<tr>
+<td>PAH</td>
+<td>Pressure Alarm High</td>
+</tr>
+<tr>
+<td>PAL</td>
+<td>Pressure Alarm Low</td>
+</tr>
+<tr>
+<td>PB</td>
+<td>Push Button</td>
+</tr>
+<tr>
+<td>PCU</td>
+<td>Propulsion Control Unit</td>
+</tr>
+<tr>
+<td>PD</td>
+<td>Power Distribution (440V)</td>
+</tr>
+<tr>
+<td>PDB</td>
+<td>Power Distribution Board</td>
+</tr>
+<tr>
+<td>PID</td>
+<td>Proportional Integral Derivative</td>
+</tr>
+<tr>
+<td>PLC</td>
+<td>Programmable Logic Controller</td>
+</tr>
+<tr>
+<td>PM</td>
+<td>Propulsion Motor</td>
+</tr>
+<tr>
+<td>PMS</td>
+<td>Power Management System</td>
+</tr>
+<tr>
+<td>PV</td>
+<td>Present Value / Process Variable</td>
+</tr>
+<tr>
+<td>R/G (RG)</td>
+<td>Reduction Gear</td>
+</tr>
+<tr>
+<td>RCS</td>
+<td>Remote Control System</td>
+</tr>
+<tr>
+<td>RCU</td>
+<td>Remote Control Unit</td>
+</tr>
+<tr>
+<td>S.W. (SW)</td>
+<td>Sea Water</td>
+</tr>
+<tr>
+<td>S/B</td>
+<td>Stand-By</td>
+</tr>
+<tr>
+<td>S/G (SG)</td>
+<td>Steering Gear</td>
+</tr>
+<tr>
+<td>S/T (ST)</td>
+<td>Stern Tube</td>
+</tr>
+<tr>
+<td>SB</td>
+<td>Soot Blower</td>
+</tr>
+<tr>
+<td>SC</td>
+<td>Sea Chest</td>
+</tr>
+<tr>
+<td>SH</td>
+<td>Super Heated / Shore</td>
+</tr>
+<tr>
+<td>SP</td>
+<td>Set Point variable</td>
+</tr>
+<tr>
+<td>STM</td>
+<td>Steam</td>
+</tr>
+<tr>
+<td>STP</td>
+<td>Sewage Treatment Plant</td>
+</tr>
+<tr>
+<td>SW</td>
+<td>Switch</td>
+</tr>
+<tr>
+<td>T/G</td>
+<td>(TG) Turbo Generator</td>
+</tr>
+<tr>
+<td>TAH</td>
+<td>Temperature Alarm High</td>
+</tr>
+<tr>
+<td>TAL</td>
+<td>Temperature Alarm Low</td>
+</tr>
+<tr>
+<td>TI</td>
+<td>Temperature Indication</td>
+</tr>
+<tr>
+<td>TIAH</td>
+<td>Temperature Indicator Alarm High</td>
+</tr>
+<tr>
+<td>TK</td>
+<td>Tank</td>
+</tr>
+<tr>
+<td>TOH</td>
+<td>Thermal Oil Heater</td>
+</tr>
+<tr>
+<td>UV</td>
+<td>Ultra Violet</td>
+</tr>
+<tr>
+<td>V/V</td>
+<td>Valve</td>
+</tr>
+<tr>
+<td>VCB</td>
+<td>Vacuum Circuit Breaker</td>
+</tr>
+<tr>
+<td>VMC</td>
+<td>Vacuum Magnetic Contactor</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Water</td>
+</tr>
+<tr>
+<td>W.B.T. (WBT)</td>
+<td>Water Ballast Tank</td>
+</tr>
+<tr>
+<td>W/H (WH)</td>
+<td>Wheel House (bridge)</td>
+</tr>
+<tr>
+<td>WF</td>
+<td>Water Fog</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../b_lng/" class="btn btn-neutral float-left" title="Model B LNG"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../b_lng/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
